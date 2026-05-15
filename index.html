@@ -1,103 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>BusSarthi — Book Your Bus Journey</title>
 
-<!-- ===== PRIMARY SEO ===== -->
-<title>BusSarthi — Tirth Yatra Bus Booking | Khatu Shyam, Salasar Balaji, Ranisati</title>
-
-<meta name="title" content="BusSarthi — Tirth Yatra Bus Booking Platform">
-<meta name="description" content="BusSarthi par Khatu Shyam, Salasar Balaji, Ranisati aur anya tirth yatra destinations ke liye online bus booking karein. Smart seat selection, instant confirmation, secure UPI payment aur premium travel experience ek hi platform par.">
-
-<meta name="keywords" content="
-tirth yatra bus booking,
-khatu shyam bus booking,
-salasar balaji bus booking,
-ranisati bus booking,
-online bus booking india,
-pilgrimage bus service,
-bus seat booking system,
-sleeper bus booking,
-religious tour bus booking,
-upi payment bus booking,
-BusSarthi
-">
-
+<!-- ═══════════════════════════════════════════
+     PRIMARY SEO META
+     Public-facing booking platform description
+═══════════════════════════════════════════ -->
+<meta name="description" content="BusSarthi se karein apni bus journey book karo — seat selection, online payment, aur instant booking confirmation. India ka smart bus booking platform.">
+<meta name="keywords" content="bus booking india, online bus ticket, seat booking system, bus reservation software, travel booking platform, bus sarthi">
 <meta name="author" content="Suraj Automation">
 <meta name="robots" content="index, follow">
-<meta name="language" content="English">
-<meta name="revisit-after" content="7 days">
-
-<!-- ===== CANONICAL ===== -->
+<meta name="theme-color" content="#0a0f1e">
 <link rel="canonical" href="https://yourdomain.com">
 
-<!-- ===== OPEN GRAPH / FACEBOOK ===== -->
+<!-- ═══════════════════════════════════════════
+     OPEN GRAPH (Facebook, WhatsApp, LinkedIn)
+═══════════════════════════════════════════ -->
+<meta property="og:title" content="BusSarthi — Book Your Bus Journey">
+<meta property="og:description" content="Seat select karo, payment karo, aur instant confirmation pao. Smart bus booking platform for India.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://yourdomain.com">
-<meta property="og:title" content="BusSarthi — Tirth Yatra Bus Booking">
-<meta property="og:description" content="Khatu Shyam, Salasar Balaji aur Ranisati ke liye online bus booking platform with smart seat selection and secure UPI payments.">
 <meta property="og:image" content="https://yourdomain.com/preview.png">
-<meta property="og:site_name" content="BusSarthi">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="BusSarthi — India ka smart bus booking platform">
+<meta property="og:site_name" content="BusSarthi by Suraj Automation">
 <meta property="og:locale" content="en_IN">
 
-<!-- ===== TWITTER ===== -->
+<!-- ═══════════════════════════════════════════
+     TWITTER / X CARD
+═══════════════════════════════════════════ -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:url" content="https://yourdomain.com">
-<meta name="twitter:title" content="BusSarthi — Online Tirth Yatra Bus Booking">
-<meta name="twitter:description" content="Book buses for Khatu Shyam, Salasar Balaji & Ranisati with seat selection and secure online payments.">
+<meta name="twitter:title" content="BusSarthi — Book Your Bus Journey">
+<meta name="twitter:description" content="Online bus seat booking, payment aur confirmation — sab ek jagah. Powered by Suraj Automation.">
 <meta name="twitter:image" content="https://yourdomain.com/preview.png">
+<meta name="twitter:image:alt" content="BusSarthi bus booking platform preview">
+<meta name="twitter:site" content="@surajautomation">
+<meta name="twitter:creator" content="@surajautomation">
 
-<!-- ===== PWA / MOBILE ===== -->
-<meta name="theme-color" content="#0a0f1e">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="BusSarthi">
-<meta name="application-name" content="BusSarthi">
+<!-- ═══════════════════════════════════════════
+     ADMIN LOGIN PAGE HINT
+     (injected via GAS template into admin-login.html)
+     Robots: noindex — admin page search mein nahi aana chahiye
+═══════════════════════════════════════════ -->
+<!-- NOTE: admin-login.html ke <head> mein ye line zaroor add karo:
+     <meta name="robots" content="noindex, nofollow">
+     <meta name="title" content="BusSarthi Admin Login">
+     <meta name="description" content="BusSarthi admin panel login. Authorized personnel only.">
+-->
 
-<!-- ===== GEO SEO ===== -->
-<meta name="geo.region" content="IN">
-<meta name="geo.country" content="India">
-<meta name="distribution" content="global">
-
-<!-- ===== FAVICON ===== -->
-
+<!-- ═══════════════════════════════════════════
+     SVG FAVICON — fully inline, no external file
+═══════════════════════════════════════════ -->
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%230a0f1e'/%3E%3Cstop offset='100%25' stop-color='%23111827'/%3E%3C/linearGradient%3E%3ClinearGradient id='acc' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23f97316'/%3E%3Cstop offset='100%25' stop-color='%23ea580c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23bg)'/%3E%3Crect x='8' y='18' width='48' height='30' rx='8' fill='none' stroke='url(%23acc)' stroke-width='3'/%3E%3Crect x='12' y='22' width='40' height='14' rx='4' fill='rgba(249%2C115%2C22%2C0.15)'/%3E%3Ccircle cx='18' cy='52' r='4' fill='url(%23acc)'/%3E%3Ccircle cx='46' cy='52' r='4' fill='url(%23acc)'/%3E%3Crect x='8' y='26' width='4' height='8' rx='2' fill='url(%23acc)'/%3E%3C/svg%3E">
-
+<!-- PNG fallbacks — generate from https://realfavicongenerator.net -->
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
 
-<!-- ===== WINDOWS TILE ===== -->
+<!-- Windows / PWA theme -->
 <meta name="msapplication-TileColor" content="#0a0f1e">
 <meta name="msapplication-TileImage" content="favicon-144.png">
 
-<!-- ===== STRUCTURED DATA ===== -->
+<!-- ═══════════════════════════════════════════
+     STRUCTURED DATA — JSON-LD (Google Rich Results)
+═══════════════════════════════════════════ -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "TravelAgency",
+  "@type": "WebApplication",
   "name": "BusSarthi",
   "url": "https://yourdomain.com",
-  "logo": "https://yourdomain.com/logo.png",
-  "description": "Online pilgrimage and bus booking platform for Khatu Shyam, Salasar Balaji, Ranisati and other religious destinations in India.",
-  "areaServed": "India",
-  "serviceType": "Bus Booking Service",
-  "brand": {
-    "@type": "Brand",
-    "name": "BusSarthi"
+  "description": "India ka smart bus booking platform — seat select karo, payment karo, instant confirmation pao.",
+  "applicationCategory": "TravelApplication",
+  "operatingSystem": "All",
+  "author": {
+    "@type": "Organization",
+    "name": "Suraj Automation",
+    "url": "https://surajdx.com"
   },
   "offers": {
     "@type": "Offer",
-    "category": "Bus Ticket Booking"
+    "price": "0",
+    "priceCurrency": "INR"
   }
 }
 </script>
 
-<!-- ===== GOOGLE FONTS ===== -->
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
 
 <style>
@@ -110,16 +103,8 @@ BusSarthi
     --muted: #64748b;
   }
 
-  *, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  html, body {
-    height: 100%;
-    overflow: hidden;
-  }
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; overflow: hidden; }
 
   body {
     font-family: 'DM Sans', sans-serif;
@@ -130,8 +115,130 @@ BusSarthi
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
   }
-</style>
 
+  /* ── Loader ── */
+  .loader {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg);
+    background-image:
+      radial-gradient(ellipse at 20% 50%, rgba(249,115,22,0.10) 0%, transparent 55%),
+      radial-gradient(ellipse at 80% 20%, rgba(234,88,12,0.06) 0%, transparent 50%);
+    transition: opacity 0.5s ease, visibility 0.5s;
+  }
+  .loader.hide {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .loader-card {
+    width: 90%;
+    max-width: 320px;
+    padding: 36px 28px;
+    border-radius: 24px;
+    background: rgba(17, 24, 39, 0.85);
+    border: 1px solid rgba(249, 115, 22, 0.15);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    text-align: center;
+    box-shadow: 0 32px 80px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.04) inset;
+  }
+
+  /* Bus icon animation */
+  .bus-wrap {
+    position: relative;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 20px;
+  }
+  .bus-ring {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 2.5px solid transparent;
+    border-top-color: var(--orange);
+    border-right-color: rgba(249,115,22,0.3);
+    animation: spin 1.1s linear infinite;
+  }
+  .bus-icon {
+    position: absolute;
+    inset: 8px;
+    background: linear-gradient(135deg, var(--orange), var(--orange-dark));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    box-shadow: 0 4px 20px rgba(249,115,22,0.4);
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .loader-logo {
+    font-family: 'Syne', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--text);
+    margin-bottom: 4px;
+    letter-spacing: -0.5px;
+  }
+  .loader-logo span { color: var(--orange); }
+
+  .loader-tagline {
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+  /* Road-style progress bar */
+  .progress-wrap {
+    position: relative;
+    height: 8px;
+    background: rgba(255,255,255,0.07);
+    border-radius: 100px;
+    overflow: hidden;
+  }
+  .progress-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, var(--orange-dark), var(--orange), #fbbf24);
+    border-radius: 100px;
+    transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 0 10px rgba(249,115,22,0.5);
+  }
+
+  .loader-status {
+    margin-top: 12px;
+    font-size: 12px;
+    color: var(--muted);
+    min-height: 16px;
+    transition: opacity 0.3s;
+  }
+
+  /* ── App shell ── */
+  .app {
+    width: 100%;
+    height: 100%;
+  }
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+
+  @media (max-width: 420px) {
+    .loader-card { padding: 28px 20px; }
+    .loader-logo { font-size: 22px; }
+  }
+</style>
 </head>
 <body>
 
